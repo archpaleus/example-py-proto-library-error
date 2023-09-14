@@ -1,0 +1,5 @@
+build --cxxopt=-std=c++20 --host_cxxopt=-std=c++20
+
+# Uncomment this to allow builds to work when referencing
+# @com_google_protobuf//python:well_known_types_py_pb2
+#build --nocheck_visibility
